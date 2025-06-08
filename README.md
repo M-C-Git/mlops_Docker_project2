@@ -35,12 +35,14 @@ Porject Components
 * Each Logstash instance listens on port 5000 and pulls log data from corresponding log files or agents.
 </br>
 </br>
+
 2. Log Storage
 * Logs are sent to Elasticsearch (ES), a search engine and analytics engine.
 * Elasticsearch nodes form a cluster to index and store logs.
 * Logstash sends data to Elasticsearch via port 9200.
 </br>
 </br>
+
 3. Log Visualization
 * Kibana is the frontend visualization tool for Elasticsearch.
 * Connects to Elasticsearch over port 9200.
