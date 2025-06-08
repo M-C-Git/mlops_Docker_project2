@@ -1,0 +1,33 @@
+1. systemctl --user start docker-desktop
+    Open docker-desktop
+
+2. docker compose up -d
+    build and start containers
+    
+3. docker ps
+    check the initiation status of containers 
+
+4. docker compose restart logstash02
+    restart container ls01, which were faild
+
+5. docker compose logs
+    check errors if exists
+
+6. docker compose up -d ls01
+    rebuild and restart ls01, where was failed.
+
+7. docker network ls
+    check networks
+    
+8. docker network inspect docker_elk_default
+    inspect the whole project
+
+9. docker exec -it es01 ifconfig
+    to check ip of es01
+    
+10. ifconig
+    check ip for wlp4s0, the real LAN network
+    
+11. docker compose down
+    stops containers and cleanup the whole project
+    
